@@ -61,6 +61,6 @@ class RemoteworkscrapperPipeline(object):
         request = requests.post(self.mailgun_requrl, auth=('api', self.mailgun_key), data={
             'from': 'hello@remoteworkscrapper.com',
             'to': MAILGUN['email_receiver'],
-            'subject': 'Hello',
+            'subject': 'New Remote Work',
             'html': "<html><body><ol>"+data+"</ol></body></html>"
         })

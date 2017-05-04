@@ -13,4 +13,4 @@ This is project for scrap remote work list using Scrapy from some website
 - settings Mailgun credentials at MAILGUN section in `settings.py`
 - settings mail receiver in in MAILGUN section in `settings.py`
 - run scrappy with command:
-    `scrapy crawl remoteworkscrapper`
+    `python run.py`
